@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+    postgres:
+        image: latest
+        environment:
+            -POSTGRES_DB=project_yarmsale
+            -POSTGRES_USER=Leandrodize
+            -POSTGRES_PASSWORD=123456
+        ports:
+            -5432:5432
